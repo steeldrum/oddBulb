@@ -1,0 +1,36 @@
+.oddbulb {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    overflow: auto;
+    clear: both;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+
+body {
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: gray;
+}
